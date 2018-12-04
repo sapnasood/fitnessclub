@@ -1,0 +1,137 @@
+.getstarted-jumbo{
+  text-align: center;  
+  background: #263746;
+}
+
+.jumbotron p {
+    padding-top: 50px;
+    color: azure;
+}
+
+.jumbotron p strong{
+   font-size: 40px;
+}
+
+#list-group{
+    width:70%
+}
+
+.row{
+    margin-left:50px;
+    margin-right: 50px;
+    text-align: center;
+    
+}
+
+.col-xs-6,.col-md-3{
+    border-style: inset;
+}
+
+.media-heading {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.media-body p{
+    margin-left: 50px;
+}
+
+.media:first-child{
+    margin-top:50px;
+}
+
+.list-group-item{
+    background: #CEB9BC;
+    font-weight: 800;
+}
+.list-group-item:first-child{
+    background: #FBE2E5;
+}
+
+.list-grp{
+    font-size: bold;
+    
+}
+
+.modal-title{
+    font-family: Gotham,serif;
+    font-weight: bold;
+    font-size: 3rem; 
+    color: #777;
+    
+}
+
+input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    font-size: 1.2em;
+  }
+  
+  input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+  }
+  
+  input.error {
+    border: 1px solid red;
+  }
+  
+  .errorMessage {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+  }
+  
+  .firstName {
+    margin-right: 1%;
+  }
+  
+  .lastName {
+    margin-left: 1%;
+  }
+  
+  .firstName,
+  .lastName,
+  .email,
+  .password,
+  .profilepic {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  .firstName,
+  .lastName {
+    width: 50%;
+  }
+  
+  .email,
+  .password,
+  .profilepic {
+    width: 100%;
+  }
+
+  .lab-signup{
+    font-size: 20px;
+    font-family: Gotham,serif;
+    color: #777;
+  }
+
+  .modal-header {
+      background-color: #FBE2E5;
+  }
+
+.text-success{
+    font-size: 2rem;
+    padding-left: 30%;
+    color:green
+}
+
+.text-error{
+    color:red;
+    font-size: 2rem;
+    padding-left: 30%;
+}

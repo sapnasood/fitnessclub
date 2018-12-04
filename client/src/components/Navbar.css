@@ -1,0 +1,25 @@
+.navbar-brand{
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    /* font-size: 50px; */
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.navbar-fixed-top{
+    height:70px;
+    background-color: #F7F7EF;
+    /* background: #6B6B60; */
+}
+
+.navbar-brand, .navbar-default .navbar-brand, .navbar-nav>li>a{
+    font-size: 20px; 
+    font-weight: bolder;
+    font-family: Gotham,serif;
+  }
+
+#nav-header{
+    font-size: 30px;
+}
+

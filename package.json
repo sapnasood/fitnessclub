@@ -1,0 +1,29 @@
+{
+  "name": "fitnessclub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start:prod": "node server.js",
+    "start:dev": " \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sapnasood/fitnessclub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sapnasood/fitnessclub/issues"
+  },
+  "homepage": "https://github.com/sapnasood/fitnessclub#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.13"
+  }
+}
