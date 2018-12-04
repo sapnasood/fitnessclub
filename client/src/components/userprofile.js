@@ -139,7 +139,7 @@ return(
             </div>
             <div className="email">
               <label className="lab-signin" htmlFor="email">Email</label>
-              <input
+              <input disabled
                 placeholder="Email"
                 type="email"
                 name="email"
